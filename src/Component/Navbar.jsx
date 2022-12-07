@@ -37,7 +37,7 @@ const Navbar = () => {
                 Learn <span>Dev</span>
               </h1>
             </a>
-            <ul>
+            <ul className="menu">
               <li>
                 <a href="/"> Home </a>
               </li>
