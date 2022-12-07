@@ -1,0 +1,48 @@
+.res-navbar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+}
+
+.top-area {
+  padding: 12px 0;
+  background: rgba(44, 44, 44, 0.5);
+}
+
+.nav-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+}
+
+.column {
+  display: flex;
+}
+
+.social-icon i {
+  color: #fff;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.social-icon i:hover {
+  color: #28ae60;
+}
+
+.info span {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  padding-right: 40px;
+  color: #fff;
+}
+
+.info i {
+  font-size: 14px;
+  margin-right: 5px;
+  color: #fff;
+}
