@@ -96,3 +96,43 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.slicknav_menu {
+  display: none;
+}
+
+@media screen and (max-width: 985px) {
+  .slicknav_menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9;
+    padding: 10px;
+    background-color: #4b4e50;
+    color: #fff;
+  }
+  .slicknav_menutxt {
+    color: #fff;
+  }
+  .slicknav_nav a {
+    color: #fff;
+  }
+  .menu {
+    display: none;
+  }
+  .top-area {
+    display: none;
+  }
+  .bottom-row a h1 {
+    position: absolute;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 7px 0;
+    color: #fff;
+  }
+  .border {
+    display: none;
+  }
+}
