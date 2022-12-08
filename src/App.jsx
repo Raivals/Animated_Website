@@ -4,7 +4,7 @@ import Navbar from "./Component/Navbar"
 import Home from "./Component/Home"
 import Services from "./Component/Services"
 import About from "./Component/About"
-import Counter from "multer/lib/counter"
+import Counter from "./Component/Counter"
 
 const App = () => {
   return (
