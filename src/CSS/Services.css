@@ -1,5 +1,6 @@
 .services {
-  padding: 70rem 4rem 4rem 27rem;
+  padding: 7rem 4rem 4rem 4rem;
+  align-items: center;
 }
 .heading {
   display: flex;
