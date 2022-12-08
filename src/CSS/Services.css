@@ -1,0 +1,93 @@
+.services {
+  padding: 7rem 4rem 4rem 4rem;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading h3 {
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "Nuosu SIL", serif;
+  color: #2c2c2c;
+  position: relative;
+  padding-bottom: 5rem;
+}
+.services-row {
+  display: flex;
+  justify-content: space-around;
+}
+.single-service {
+  width: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.services-row .bg-1 {
+  background-image: url("..//Images/watch2.png");
+}
+.services-row .bg-2 {
+  background-image: url("..//Images/Desk2.png");
+}
+.services-row .bg-3 {
+  background-image: url("..//Images/Desk3.png");
+}
+.hover {
+  text-align: center;
+  padding: 104px 0 94px 0;
+  background: rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+  position: relative;
+}
+
+.hover h3 {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  margin-top: 20px;
+}
+.hover-content {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #28ae60;
+  transform: translateY(40%);
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.hover-content-inner h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+.hover-content-inner p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #4d4d4d;
+  margin-bottom: 13px;
+  font-family: "Poppins", sans-serif;
+}
+.hover-content-inner {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 0 54px;
+}
+.single-service:hover .hover-content {
+  transform: translateY(0%);
+  opacity: 1;
+  visibility: visible;
+}

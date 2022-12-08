@@ -1,5 +1,5 @@
 import React, { Fragment } from "react"
-
+import "../CSS/Services.css"
 const Services = () => {
   return (
     <Fragment>
@@ -9,45 +9,51 @@ const Services = () => {
         </div>
         <div className="services-row">
           <div className="column">
-            <div className="hover">
-              <h3>Timing</h3>
-              <div className="hover-content">
-                <div className="hover-content-inner">
-                  <h4>Timing</h4>
-                  <p>
-                    Shingle color was not something the couple had ever talked
-                    about.
-                  </p>
+            <div className="single-service bg-1">
+              <div className="hover">
+                <h3>Timing</h3>
+                <div className="hover-content">
+                  <div className="hover-content-inner">
+                    <h4>Timing</h4>
+                    <p>
+                      Shingle color was not something the couple had ever talked
+                      about.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="column">
-            <div className="hover">
-              <h3>Business Growth</h3>
-              <div className="hover-content">
-                <div className="hover-content-inner">
-                  <h4>Business Growth</h4>
-                  <p>
-                    Shingle color was not something the couple had ever talked
-                    about.
-                  </p>
+            <div className="single-service bg-2">
+              <div className="hover">
+                <h3>Business Growth</h3>
+                <div className="hover-content">
+                  <div className="hover-content-inner">
+                    <h4>Business Growth</h4>
+                    <p>
+                      Shingle color was not something the couple had ever talked
+                      about.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="column">
-            <div className="hover">
-              <h3>Problem Solving</h3>
-              <div className="hover-content">
-                <div className="hover-content-inner">
-                  <h4>Problem Solving</h4>
-                  <p>
-                    Shingle color was not something the couple had ever talked
-                    about.
-                  </p>
+            <div className="single-service bg-3">
+              <div className="hover">
+                <h3>Problem Solving</h3>
+                <div className="hover-content">
+                  <div className="hover-content-inner">
+                    <h4>Problem Solving</h4>
+                    <p>
+                      Shingle color was not something the couple had ever talked
+                      about.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
