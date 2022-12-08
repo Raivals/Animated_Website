@@ -1,0 +1,53 @@
+.home {
+  position: absolute;
+  display: flex;
+  padding-top: 13rem;
+  background-image: url("../Images/backgroundT.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100vh;
+}
+.home::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  background-color: #2c2c2c;
+  z-index: 0;
+  opacity: 0.6;
+}
+.home-container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home-container h1 {
+  max-width: 960px;
+  color: white;
+  font-size: 36px;
+  line-height: 65px;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-family: "Nuosu SIL" serif;
+}
+
+.home-container p {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.7;
+  font-family: "Nuosu SIL" serif;
+  color: white;
+  margin-bottom: 0;
+}

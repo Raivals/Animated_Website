@@ -62,8 +62,7 @@
   padding: 25px 10px;
   letter-spacing: 0.5px;
   margin: 0;
-  color: rgba(44, 44, 44, 0.5);
-  /* color: #fff; */
+  color: #fff;
 }
 
 .bottom-row a h1 span {
@@ -82,8 +81,7 @@
   padding: 20px 10px;
   margin: 0 10px;
   text-decoration: none;
-  color: rgba(44, 44, 44, 0.5);
-  /* color: #fff; */
+  color: #fff;
 }
 
 .menu li a:hover {
@@ -129,7 +127,7 @@
     position: absolute;
     font-size: 1.6rem;
     font-weight: 500;
-    padding: 7px 0;
+    padding: 2px 0;
     color: #fff;
   }
   .border {
