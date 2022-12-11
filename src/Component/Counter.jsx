@@ -71,7 +71,7 @@ const Counter = ({ className, ...rest }) => {
                   <CountUp
                     {...rest}
                     start={viewPortEntered ? null : 0}
-                    end={206}
+                    end={97}
                   >
                     {({ countUpRef }) => {
                       return (
@@ -90,6 +90,7 @@ const Counter = ({ className, ...rest }) => {
                     }}
                   </CountUp>
                 </strong>
+                <span className="percentage">%</span>
                 <span>
                   Job <br /> Success
                 </span>
