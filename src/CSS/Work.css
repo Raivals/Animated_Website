@@ -1,0 +1,144 @@
+.work {
+  padding: 7rem 4rem 7rem 4rem;
+  overflow: hidden;
+}
+
+.work-heading {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.work-heading h3 {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 15px;
+}
+
+.work-heading p {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: #707070;
+}
+
+.work-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.work-row .work-column {
+  max-width: 33%;
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow: hidden;
+}
+
+.work-item {
+  box-shadow: 0 0 8px rgb(34, 30, 31 / 30%);
+  background: #f6f6f6;
+  overflow: hidden;
+}
+.work-item:hover {
+  background: #ffffff;
+  box-shadow: 0 2px 20px rgb(34, 30, 31 / 40%);
+}
+
+.work-text {
+  border-bottom: 2px solid #86bc42;
+  padding: 29px 34px 35px;
+}
+
+.work-text h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.work-text h3 a {
+  color: #4d4d4d;
+  font-family: "Poppins", sans-serif;
+}
+
+.work-text p {
+  margin-bottom: 1rem;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+.work-text .work-btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  margin-top: 7px;
+  padding: 4px 21px;
+  width: 126px;
+  color: #ffffff;
+  background: #28ae60;
+}
+
+.work-row .work-column img {
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+  vertical-align: top;
+}
+
+@media screen and (max-width: 1100px) {
+  .work-text {
+    padding: 29px 15px 35px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .work {
+    padding: 5rem 3rem 3rem 3rem;
+  }
+  .work-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .work-row .work-column {
+    max-width: 90%;
+    padding: 2rem 1rem 1rem 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .work {
+    padding: 4rem 2rem 2rem 2rem;
+  }
+  .work-row {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+  }
+  .work-row .work-column {
+    max-width: 70%;
+    padding: 1rem;
+  }
+  .work-text {
+    padding: 29px 21px 35px;
+  }
+  .work-text h3 {
+    margin-bottom: 15px;
+  }
+  .work-text p {
+    margin-bottom: 1.5rem;
+  }
+  .work-text .work-btn {
+    margin-top: 10px;
+    padding: 6px 21px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .work-row .work-column {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .work-text {
+    padding: 29px 8px 35px;
+  }
+}

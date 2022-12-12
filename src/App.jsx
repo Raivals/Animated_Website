@@ -6,6 +6,7 @@ import Services from "./Component/Services"
 import About from "./Component/About"
 import Counter from "./Component/Counter"
 import Testimonial from "./Component/Testimonial"
+import Work from "./Component/Work"
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <About />
       <Counter />
       <Testimonial />
+      <Work />
     </Fragment>
   )
 }
