@@ -10,7 +10,6 @@ const Navbar = () => {
       setNavbar(false)
     }
   }
-
   window.addEventListener("scroll", changeBackground)
 
   return (
