@@ -1,0 +1,104 @@
+.faculty {
+  padding-bottom: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 80%;
+}
+.faculty p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  color: #727272;
+  font-weight: 400;
+  text-decoration: underline;
+  margin-bottom: 24px;
+}
+.comp-info h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  color: #3c3c3c;
+}
+.comp-info span {
+  font-size: 20px;
+  line-height: 32px;
+  color: #3c3c3c;
+}
+.owl-text {
+  text-align: center;
+}
+.owl-theme {
+  padding-top: 143px;
+}
+.owl-dots {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.owl-carousel .owl-dots .owl-dot {
+  background-image: url("../Images/men1.png");
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  margin: 0 9px;
+  opacity: 0.5;
+  transition: 0.3s;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.owl-dots .owl-dot:nth-child(2) {
+  background-image: url("../Images/men2.png");
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+}
+
+.owl-dots .owl-dot:nth-child(3) {
+  background-image: url("../Images/men3.png");
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+}
+.owl-dots .owl-dot.active {
+  opacity: 1;
+  width: 100px;
+  height: 100px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+  display: none;
+}
+
+.owl-theme .owl-dots button.owl-dot span {
+  background: transparent;
+}
+.owl-theme .owl-dots button.owl-dot:hover span {
+  background: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  .faculty {
+    padding-bottom: 4rem;
+  }
+
+  .owl-carousel .owl-dots .owl-dot {
+    margin-top: 40px;
+    width: 45px;
+    height: 45px;
+  }
+  .owl-dots .owl-dot.active {
+    height: 65px;
+    width: 65px;
+  }
+}

@@ -1,0 +1,144 @@
+.footer-top {
+  padding: 7rem 2rem 4rem 2rem;
+  background: #2c2c2c;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-column {
+  max-width: 25%;
+}
+.column-content h2 {
+  color: #c7c7c7;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+.column-content h2 span {
+  color: #28ae60;
+}
+
+.column-content p {
+  color: #c7c7c7;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.column-content ul {
+  margin-top: 3rem !important;
+}
+
+.column-content .footer-link {
+  display: flex;
+}
+.column-content .footer-link li {
+  margin: 0 15px 0 0;
+}
+
+.column-content .footer-link li a {
+  font-size: 15px;
+  font-weight: 400;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  background: transparent;
+  border-radius: 50%;
+  line-height: 44px !important;
+  background: #565656;
+}
+
+.column-content .footer-link li a i {
+  font-size: 20px;
+  color: #c7c7c7;
+}
+
+.column-content .footer-link li a:hover {
+  background-color: #28ae60;
+}
+
+.column-content ul li {
+  padding-bottom: 10px;
+}
+
+.column-content ul li a {
+  color: #c7c7c7;
+  font-family: "Nunito Sans", sans-serif;
+}
+.column-content ul li a span {
+  color: #28ae60;
+  padding-right: 5px;
+}
+.column-content ul li span {
+  color: #c7c7c7;
+  font-family: "Nunito Sans", sans-serif;
+}
+.column-content ul .list {
+  display: table;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.list .number {
+  color: #c7c7c7;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.list .email {
+  color: #c7c7c7;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.column-content ul .list {
+  display: table;
+}
+
+.column-content ul .list .footer-icon {
+  display: table-cell;
+  vertical-align: top;
+  width: 40px;
+  font-size: 18px;
+  padding-top: 2px;
+  color: #28ae60;
+}
+
+.column-content ul .list .text {
+  display: table-cell;
+  vertical-align: top;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.footer-2 {
+  padding: 2rem 0;
+  display: grid;
+  place-items: center;
+  background: #1f1f1f;
+}
+
+.container-2 p {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #c7c7c7;
+}
+.container-2 p span {
+  color: #28ae60;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-top {
+    display: flex;
+    padding: 3rem 2rem;
+  }
+  .footer-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-column {
+    padding-top: 2rem;
+    max-width: 100%;
+  }
+}

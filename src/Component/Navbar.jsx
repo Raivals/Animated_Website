@@ -1,7 +1,18 @@
-import React, { Fragment } from "react"
+import React, { Fragment, useState } from "react"
 import "../CSS/Navbar.css"
 
 const Navbar = () => {
+  const [navbar, setNavbar] = useState(false)
+  const changeBackground = () => {
+    if (window.scrollY >= 150) {
+      setNavbar(true)
+    } else {
+      setNavbar(false)
+    }
+  }
+
+  window.addEventListener("scroll", changeBackground)
+
   return (
     <Fragment>
       <section className="res-navbar">
@@ -31,7 +42,7 @@ const Navbar = () => {
         </div>
 
         <div className="bottom-nav">
-          <div className="bottom-row">
+          <div className={navbar ? "bottom-row show" : "bottom-row"}>
             <a href="/">
               <h1>
                 Learn <span>Dev</span>
